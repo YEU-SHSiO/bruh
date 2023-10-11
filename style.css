@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(/images/8d0a1f537c92914d7458c6706da45388.gif)  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.warpper{
+    width: 470px;
+    height: 350px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: orange;
+    border-radius: 40px;
+    padding: 10px 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+.warpper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.warpper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 100% ;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box input::placeholder{
+    color: #fff;
+
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.warpper .remember-forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;   
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+.warpper .Btn{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: rgb(253, 226, 74);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1) ;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.warpper .register-link{
+    width: auto;
+    color: orange;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
